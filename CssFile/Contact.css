@@ -1,0 +1,538 @@
+/* .ContactHeading
+{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 25px;
+}
+.HeadingGetInTouch
+{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom:202px;
+    right: 92px;
+}
+.ContactForm
+{
+    display: flex;
+    justify-content:flex-end;
+    position: relative;
+    bottom:760px;
+    right:160px
+}
+.ContactContent
+{
+    color: aliceblue;
+    display: grid;
+    justify-content: center;
+    position: relative;
+    right: 350px;
+    bottom: 270px;
+}
+.FooterContactIcons
+{
+    display: flex;
+    justify-content: start;
+    justify-content: space-evenly;
+    position: relative;
+    right: 54px;
+    cursor: pointer;
+}
+.ContactContainer
+{
+    height: 100%;
+    background-color: #18191A;
+}
+.touch
+{
+    font-size:50px;
+    font-weight: bolder;
+    position: relative;
+    bottom: 102px;
+    color:  rgb(255, 160, 1);
+    left: 200px;
+} */
+
+.yourname{
+    color:gray;
+background-color:#28282B;
+border-color:#28282B
+
+}
+.youremail{
+    color:gray;
+background-color:#28282B;
+border-color:#28282B
+
+}
+.yoursubject
+{
+    color:gray;
+    background-color:#28282B;
+    border-color:#28282B
+}
+.yourmsg
+{
+    color:gray;
+    background-color:#28282B;
+    border-color:#28282B
+}
+
+.contact
+{
+    margin-top: 20px;
+    color:#28282B;
+    word-spacing:10px;
+    font-weight:bolder;
+    font-size:80px;
+}
+@media only screen and (min-width : 601px) and (max-width : 800px) 
+    {
+        .fullContainer
+        {
+            text-align: center;
+            height: 180%;
+
+        } 
+    }
+    @media only screen and (min-width : 801px) and (max-width : 999px) 
+    {
+        .fullContainer
+        {
+            height: 120%;
+
+        } 
+    }
+    @media only screen and (min-width : 1000px) and (max-width : 1199px) 
+    {
+        .fullContainer
+        {
+            height: 130%;
+
+        }
+    }
+@media only screen and (min-width : 1200px) and (max-width : 2000px) 
+    {
+        .fullContainer
+        {
+            height: 110%;
+
+        }
+    }
+  
+    @media only screen and (min-width : 300px) and (max-width : 600px) 
+    {
+        .bodyContainer
+        {
+            text-align: center;
+
+        }
+    }
+    @media only screen and (min-width : 300px) and (max-width : 600px) 
+    {
+        .yourname
+        {
+            margin-top: 50px;
+            width:350px;
+            height:50px;
+            border-radius:30px;
+        }
+    }
+    @media only screen and (min-width : 601px) and (max-width : 999px) 
+    {
+        .yourname
+        {
+            width:170px;
+            height:50px;
+            border-radius:30px;
+        }
+    }
+    @media only screen and (min-width : 1000px) and (max-width : 1199px) 
+    {
+        .yourname
+        {
+            margin-left: 20px;
+            width:220px;
+            height:50px;
+            border-radius:30px;
+        }
+    }
+    @media only screen and (min-width : 1200px) and (max-width : 2000px) 
+    {
+        .yourname
+        {
+            width:300px;
+            height:50px;
+            border-radius:30px;
+        }
+    }
+    @media only screen and (min-width : 300px) and (max-width : 600px) 
+    {
+        .youremail
+        {
+            margin-top: 40px;
+            width:350px;
+            height:50px;
+            border-radius:30px;
+        }
+    }
+    @media only screen and (min-width : 601px) and (max-width : 999px) 
+    {
+        .youremail
+        {
+            width:200px;
+            height:50px;
+            border-radius:30px;
+        }
+    }
+    @media only screen and (min-width : 1000px) and (max-width : 1199px) 
+    {
+        .youremail
+        {
+            margin-left: 20px;
+            width:250px;
+            height:50px;
+            border-radius:30px;
+        }
+    }
+    @media only screen and (min-width : 1200px) and (max-width : 2000px) 
+    {
+        .youremail
+        {
+            width:300px;
+            height:50px;
+            border-radius:30px;
+        }
+    }
+    @media only screen and (min-width : 300px) and (max-width : 600px) 
+    {
+        .yoursubject
+        {
+            width:350px;
+            height:50px;
+            border-radius:30px;
+        }
+    }
+    @media only screen and (min-width : 601px) and (max-width : 999px) 
+    {
+        .yoursubject
+        {
+            width:370px;
+            height:50px;
+            border-radius:30px;
+        }
+    }
+    @media only screen and (min-width : 1000px) and (max-width : 1199px) 
+    {
+        .yoursubject
+        {
+            margin-left: 20px;
+            width:490px;
+            height:50px;
+            border-radius:30px;
+        }
+    }
+    @media only screen and (min-width : 1200px) and (max-width : 2000px) 
+    {
+        .yoursubject
+        {
+            width:600px;
+            height:50px;
+            border-radius:30px;
+        }
+    }
+    @media only screen and (min-width : 300px) and (max-width : 600px) 
+    {
+        .yourmsg
+        {
+            width:350px;
+            height:250px;
+            border-radius:30px;
+        }
+    }
+    @media only screen and (min-width : 601px) and (max-width : 999px) 
+    {
+        .yourmsg
+        {
+            width:370px;
+            height:150px;
+            border-radius:30px;
+        }
+    }
+    @media only screen and (min-width : 1000px) and (max-width : 1199px) 
+    {
+        .yourmsg
+        {
+            margin-left: 20px;
+            width:490px;
+            height:200px;
+            border-radius:30px;
+            color:gray;
+            background-color:#28282B;
+            border-color:28282B;
+        }
+    }
+    @media only screen and (min-width : 1200px) and (max-width : 2000px) 
+    {
+        .yourmsg
+        {
+            width:600px;
+            height:200px;
+            border-radius:30px;
+            color:gray;
+            background-color:#28282B;
+            border-color:28282B;
+        }
+    }
+    
+    @media only screen and (min-width : 1000px) and (max-width : 1199px) 
+    {
+        .finalbutton
+        {
+            margin-left: 20px;
+        }
+    }
+
+@media only screen and (min-width : 300px) and (max-width : 600px) 
+    {
+        .contact
+        {
+            margin-top: 10px;
+            font-weight: bolder;
+            font-size: 40px;
+
+        }
+    }
+    
+.HeadingTag
+{
+    text-align: center;
+}
+@media only screen and (min-width : 300px) and (max-width : 600px) 
+    {
+        .getin
+        {
+            position: relative;
+            bottom: 50px;
+            right: 50px;
+            font-weight: bolder;
+            font-size: 30px;
+        }
+    }
+@media only screen and (min-width : 601px) and (max-width : 999px) 
+    {
+        .getin
+        {
+            font-weight: bolder;
+            font-size: 55px;
+            position: relative;
+            bottom: 90px;
+            right: 100px;
+
+        }
+    }
+    @media only screen and (min-width : 1000px) and (max-width : 1199px) 
+    {
+        .getin
+        {
+            font-weight: bolder;
+            font-size: 55px;
+            position: relative;
+            bottom: 90px;
+            right: 100px;
+
+        }
+    }
+@media only screen and (min-width : 1200px) and (max-width : 2000px) 
+    {
+        .getin
+        {
+            font-weight: bolder;
+            font-size: 55px;
+            position: relative;
+            bottom: 90px;
+            right: 100px;
+
+        }
+    }
+    @media only screen and (min-width : 300px) and (max-width : 600px) 
+    {
+        .touch
+        {
+            position: relative;
+            bottom: 93px;
+            margin-left: 120px;
+            font-weight: bolder;
+            font-size: 30px;
+        }
+    }
+    @media only screen and (min-width : 601px) and (max-width : 999px) 
+    {
+        .touch
+        {
+            font-weight: bolder;
+            font-size: 55px;
+            position: relative;
+            bottom: 163px;
+            margin-left: 200px;
+
+        }
+    }
+    @media only screen and (min-width : 1000px) and (max-width : 1199px) 
+    {
+        .touch
+        {
+            font-weight: bolder;
+            font-size: 55px;
+            position: relative;
+            bottom: 163px;
+            margin-left: 200px;
+
+        }
+    }
+    @media only screen and (min-width : 1200px) and (max-width : 2000px) 
+    {
+        .touch
+        {
+            font-weight: bolder;
+            font-size: 55px;
+            position: relative;
+            bottom: 163px;
+            margin-left: 200px;
+
+        }
+    }
+.getin
+{
+    color: white;
+}
+.touch
+{
+    color:  rgb(255, 160, 1);
+}
+@media only screen and (min-width : 300px) and (max-width : 800px) 
+    {
+        .form
+        {
+           text-align: center;
+           margin-top: 50px;
+        }
+    }
+    @media only screen and (min-width : 801px) and (max-width : 999px) 
+    {
+        .form
+        {
+            position: relative;
+            margin-left: 40%;
+            bottom: 430px;
+        
+        }
+    }
+    @media only screen and (min-width : 1000px) and (max-width : 1199px) 
+    {
+        .form
+        {
+            position: relative;
+            margin-left: 47%;
+            bottom: 500px;
+        
+        }
+    }
+@media only screen and (min-width : 1200px) and (max-width : 2000px) 
+    {
+        .form
+        {
+            position: relative;
+            margin-left: 49%;
+            bottom: 500px;
+        
+        }
+    }
+    .bodyContainer
+    {
+        color: white;
+        font-weight: bold ;
+
+    }
+    @media only screen and (min-width : 1000px) and (max-width : 1199px) 
+    {
+        .bodyContainer
+        {
+            position: relative;
+            margin-left: 100px;
+            bottom: 60px;
+        
+        }
+    }
+    @media only screen and (min-width : 1200px) and (max-width : 2000px) 
+    {
+        .bodyContainer
+        {
+            position: relative;
+            margin-left: 200px;
+            bottom: 60px;
+        
+        }
+    }
+    @media only screen and (min-width : 1200px) and (max-width : 2000px) 
+    {
+        .mailme
+        {
+            position: relative;
+            margin-left: 50px;
+            bottom: 43px;
+        
+        }
+    }
+    @media only screen and (min-width : 1200px) and (max-width : 2000px) 
+    {
+        .email
+        {
+            position: relative;
+            margin-left: 50px;
+            bottom: 43px;
+        
+        }
+    }
+    @media only screen and (min-width : 1200px) and (max-width : 2000px) 
+    {
+        .callme
+        {
+            position: relative;
+            margin-left: 50px;
+            bottom: 43px;
+        
+        }
+    }
+    @media only screen and (min-width : 1200px) and (max-width : 2000px) 
+    {
+        .phone
+        {
+            position: relative;
+            margin-left: 50px;
+            bottom: 43px;
+        
+        }
+    }
+    .links
+    {
+        border-radius:20px;
+        background-color: #28282B;
+        border-color:#28282B;
+    }
+    @media only screen and (min-width : 600px) and (max-width : 1000px)
+    {
+        .backtwo
+        {
+            position: relative;
+            right: 42%;
+            top: 20px;
+            border-radius:55px;
+            cursor:pointer;
+            width: 55px;
+            height: 55px;
+            background-color:  #242526;
+        
+        }
+    }

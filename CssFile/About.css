@@ -1,0 +1,309 @@
+.MainBox
+{
+    height: 80%;
+}
+.BigBox1
+{
+    background-color:  rgb(255, 160, 1);
+    height: 500px;
+}
+@media only screen and (min-width : 300px) and (max-width : 600px) 
+{
+  .BigBox1
+  {
+    height: 1400px;
+ 
+  }
+}
+@media only screen and (min-width : 300px) and (max-width : 600px) 
+{
+  .FirstContainer
+  {
+    display: grid;      
+  }
+}
+@media only screen and (min-width : 601px) and (max-width : 999px) 
+    {
+        .FirstContainer
+        {
+          display: flex;
+          justify-content: space-around;
+
+        } 
+    }
+    @media only screen and (min-width : 1000px) and (max-width : 2000px) 
+    {
+        .FirstContainer
+        {
+          display: flex;
+          justify-content: space-around;
+
+        }
+    }
+
+@media only screen and (min-width : 601px) and (max-width : 999px) 
+    {
+        .SecoundContainer
+        {
+          display: flex;
+          justify-content: space-around;
+        } 
+    }
+    @media only screen and (min-width : 1000px) and (max-width : 2000px) 
+    {
+        .SecoundContainer
+        {
+          display: flex;
+          justify-content: space-around;
+
+        }
+    }
+    @media only screen and (min-width : 300px) and (max-width : 600px) 
+{
+  .skills
+  {
+    border-radius:50px;
+    background-color:#242526;
+    cursor:pointer;
+    color:white;
+    width:300px;
+    height:150px;
+    margin-left: 150px;
+  }
+}
+@media only screen and (min-width : 601px) and (max-width : 999px) 
+    {
+      .skills
+      {
+        border-radius:50px;
+        background-color:#242526;
+        cursor:pointer;
+        color:white;
+        width:200px;
+        height:100px
+
+      }
+    }
+    @media only screen and (min-width : 1000px) and (max-width : 2000px) 
+    {
+        .skills
+        {
+          border-radius:50px;
+          background-color:#242526;
+          cursor:pointer;
+          color:white;
+          width:200px;
+          height:100px
+
+        }
+    }
+
+    @media only screen and (min-width : 300px) and (max-width : 600px) 
+    {
+      .projects
+      {
+        border-radius:50px;
+        background-color:#242526;
+        cursor:pointer;
+        color:white;
+        width:300px;
+        height:150px;
+        margin-left: 150px;
+        margin-top: 40px;
+        
+    
+      }
+    }
+    @media only screen and (min-width : 601px) and (max-width : 999px) 
+    {
+      .projects
+      {
+        border-radius:50px;
+        background-color:#242526;
+        cursor:pointer;
+        color:white;
+        width:200px;
+        height:100px
+
+      }
+    }
+    @media only screen and (min-width : 1000px) and (max-width : 2000px) 
+    {
+        .projects
+        {
+          border-radius:50px;
+          background-color:#242526;
+          cursor:pointer;
+          color:white;
+          width:200px;
+          height:100px
+
+        }
+    }
+
+    
+    @media only screen and (min-width : 300px) and (max-width : 600px) 
+    {
+      .about
+      {
+        border-radius:50px;
+        background-color:#242526;
+        cursor:pointer;
+        color:white;
+        width:300px;
+        height:150px;
+        margin-left: 150px;
+        position: relative;
+        bottom: 170px;
+        
+    
+      }
+    }
+    @media only screen and (min-width : 601px) and (max-width : 999px) 
+    {
+      .about
+      {
+        border-radius:50px;
+        background-color:#242526;
+        cursor:pointer;
+        color:white;
+        width:200px;
+        height:100px
+
+      }
+    }
+    @media only screen and (min-width : 1000px) and (max-width : 2000px) 
+    {
+        .about
+        {
+          border-radius:50px;
+          background-color:#242526;
+          cursor:pointer;
+          color:white;
+          width:200px;
+          height:100px
+
+        }
+    }
+
+
+    @media only screen and (min-width : 300px) and (max-width : 600px) 
+    {
+      .contact1
+      {
+        border-radius:50px;
+        background-color:#242526;
+        cursor:pointer;
+        color:white;
+        width:300px;
+        height:150px;
+        position: relative;
+        margin-left: 150px;
+        bottom: 120px;
+        
+    
+      }
+    }
+    @media only screen and (min-width : 601px) and (max-width : 999px) 
+    {
+      .contact1
+      {
+        border-radius:50px;
+        background-color:#242526;
+        cursor:pointer;
+        color:white;
+        width:200px;
+        height:100px
+
+      }
+    }
+    @media only screen and (min-width : 1000px) and (max-width : 2000px) 
+    {
+        .contact1
+        {
+          border-radius:50px;
+          background-color:#242526;
+          cursor:pointer;
+          color:white;
+          width:200px;
+          height:100px
+
+        }
+    }
+
+
+@media only screen and (min-width : 300px) and (max-width : 600px) 
+{
+  .SecoundContainer
+  {
+    margin-top: 150px;
+ 
+  }
+}
+@media only screen and (min-width : 600px) and (max-width : 1000px) 
+{
+  .BigBox1
+  {
+    border-radius: 50px;
+    margin-top: 50px;
+    height: 600px;
+  }
+}
+@media only screen and (min-width : 1000px) and (max-width : 2000px)
+    {
+      .BigBox1 {
+        margin-top: 130px;
+        border-radius: 50px;
+      }
+    }
+
+
+
+.Page2About
+{
+    margin-left: 350px;
+    background-color: rgb(255, 160, 1);
+    width: 50%;
+    height: 50%;
+    border-radius: 50px;
+    margin-top: 170px;
+}
+.firstRow
+{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 50pX;
+
+
+}
+.SecondRow
+{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 150pX;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+}
+.BackButton
+{
+    display: flex;
+    justify-content: center;
+    padding-right: 600px;
+    padding-top: 30px;
+    margin-top: 50px;
+}
+.AboutFooter
+{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.AboutFooter1
+{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+

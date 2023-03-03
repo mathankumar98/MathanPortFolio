@@ -1,0 +1,161 @@
+.ProjectHeading
+{
+    text-align: center;
+    margin-top: 50px;
+}
+@media only screen and (min-width : 1000px) and (max-width : 2000px)
+    {
+        .Works
+        {
+            font-weight: bolder;
+            font-size: 90px;
+            word-spacing: 10px;
+            color: #323232;
+        }
+    }
+    @media only screen and (min-width : 320px) and (max-width : 600px)
+    {
+        .Works
+        {
+            font-weight: bolder;
+            font-size: 50px;
+            word-spacing: 10px;
+            color: #323232;
+        }
+    }
+    @media only screen and (min-width : 600px) and (max-width : 1000px)
+    {
+        .Works
+        {
+            font-weight: bolder;
+            font-size: 60px;
+            word-spacing: 10px;
+            color: #323232;
+        }
+    }
+.my
+{
+ color: white;
+}
+.portfolio
+{
+    color: rgb(255, 160, 1);
+}
+
+@media only screen and (min-width : 320px) and (max-width : 600px)
+    {
+        .myPortfolio
+        {
+           position: relative;
+            bottom: 52px;
+        }
+    }
+    @media only screen and (min-width : 600px) and (max-width : 1000px)
+    {
+        .myPortfolio
+        {
+           position: relative;
+            bottom: 62px;
+        }
+    }
+
+@media only screen and (min-width : 1000px) and (max-width : 2000px)
+    {
+        .myPortfolio
+        {
+           position: relative;
+            bottom: 85px;
+            font-weight: bolder;
+            font-size: 50px;
+        }
+    }
+
+
+    @media only screen and (min-width : 320px) and (max-width : 600px)
+    {
+        .Projects   
+        {
+           position: relative;
+            bottom: 65px;
+        }
+    }
+    @media only screen and (min-width : 600px) and (max-width : 1000px)
+    {
+        .Projects   
+        {
+           position: relative;
+            bottom: 65px;
+        }
+    }
+@media only screen and (min-width : 1000px) and (max-width : 2000px)
+    {
+        .Projects   
+        {
+           position: relative;
+            bottom: 85px;
+        }
+    }
+
+    @media only screen and (min-width : 1000px) and (max-width : 2000px)
+    {
+        .ProjectImage   
+        {
+           position: relative;
+            bottom: 85px;
+            width: 50px;
+            left: 41%;
+            border-radius: 20px;
+        }
+    }
+.Projects
+{
+    font-weight: bolder;
+    color: white;
+}
+
+
+@media only screen and (min-width : 1000px) and (max-width : 2000px)
+    {
+        .backone
+        {
+            position: relative;
+            right: 45%;
+            top: 0px;
+            border-radius:55px;
+            cursor:pointer;
+            width: 55px;
+            height: 55px;
+        background-color: #242526;
+        
+        }
+    }
+    @media only screen and (min-width : 600px) and (max-width : 1000px)
+    {
+        .backone
+        {
+            position: relative;
+            right: 40%;
+            top: 0px;
+            border-radius:55px;
+            cursor:pointer;
+            width: 55px;
+            height: 55px;
+        background-color:  #242526;
+        
+        }
+    }
+    @media only screen and (min-width : 320px) and (max-width : 600px)
+    {
+        .backone
+        {
+            position: relative;
+            right: 40%;
+            bottom: 10px;
+            border-radius:55px;
+            cursor:pointer;
+            width: 55px;
+            height: 55px;
+        background-color:  #242526;
+        
+        }
+    }

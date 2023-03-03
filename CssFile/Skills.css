@@ -1,0 +1,170 @@
+
+.FullContainer
+{
+    text-align: center;
+    background-color: rgb(255, 160, 1);
+}
+
+.SkillsRow1
+{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.SkillsRow2
+{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.SkillsRow3
+{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+@media only screen and (min-width : 320px) and (max-width : 600px) 
+{
+    .FullContainer
+{
+    height: 800px;
+}
+
+}
+@media only screen and (min-width : 1000px) and (max-width : 2000px) 
+{
+    .FullContainer
+{
+    border-radius: 100px;
+    margin-top: 120px;
+    margin-right: 75px;
+
+}
+}
+@media only screen and (min-width : 1000px) and (max-width : 2000px) 
+{
+    .HoleContainer
+{
+    background-color: #18191A;
+    
+}
+}
+
+.button1
+{
+    background-color:#242526;
+    width:170px;
+    height:70px;
+    border-radius:75px;
+    color:white;
+}
+
+.ButtonIcon1
+{
+    width:25px;
+    height:25px;
+    color:white
+}
+
+
+@media only screen and (min-width : 320px) and (max-width : 600px) 
+{
+    .button1
+{
+    width: 170px;
+    height: 70px;
+    margin: 5px;
+}
+
+}
+@media only screen and (min-width : 320px) and (max-width : 600px) 
+{
+    .SkillsRow1
+    {
+        display: grid;
+        position: relative;
+        bottom: 70px;
+    }
+}
+@media only screen and (min-width : 320px) and (max-width : 600px) 
+{
+    .SkillsRow2
+    {
+        display: grid;
+        position: relative;
+        bottom: 120px;
+    }
+}
+@media only screen and (min-width : 320px) and (max-width : 600px) 
+{
+    .SkillsRow3
+    {
+        display: grid;
+        position: relative;
+        bottom: 170px;
+    }
+}
+@media only screen and (min-width : 320px) and (max-width : 600px) 
+{
+.FullContainer
+{
+    height: 1100px;
+}
+}
+@media only screen and (min-width : 600px) and (max-width : 1000px) 
+{
+    .FullContainer
+{
+    margin-top: 50px;
+    border-radius: 50px;
+    
+}
+}
+@media only screen and (min-width : 320px) and (max-width : 600px) 
+{
+    .back
+{
+    position: relative;
+    right: 47%;
+    top: 0px;
+    border-radius:55px;
+    background-color:#242526;
+    cursor:pointer;
+    width: 55px;
+    height: 55px;
+
+
+}
+}
+@media only screen and (min-width : 600px) and (max-width : 1000px) 
+{
+    .back
+{
+    position: relative;
+    right: 47%;
+    top: 0px;
+    border-radius:55px;
+    background-color:#242526;
+    cursor:pointer;
+    width: 55px;
+    height: 55px;
+
+
+}
+}
+@media only screen and (min-width : 1000px) and (max-width : 2000px) 
+{
+    .back
+{
+    position: relative;
+    right: 47%;
+    top: 0px;
+    border-radius:55px;
+    background-color:#242526;
+    cursor:pointer;
+    width: 55px;
+    height: 55px;
+
+
+}
+}

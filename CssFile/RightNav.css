@@ -1,0 +1,547 @@
+/* .bodyContainer
+{
+  background-color: #18191A;
+} */
+
+
+
+/* .RightNavBar
+{
+
+
+
+   justify-content: end;
+   padding-right: 50px;
+   height: 450px;
+}
+.RightNavBarSun
+{
+  position: absolute;
+  top: 7%;
+  right: 7.5%;
+  width: 40px;
+  height: 40px; 
+}
+.sunButton
+{
+    border-radius: 30px;
+    background-color: #4b4b4b;
+    border-color: #4b4b4b;
+    color: white;
+    cursor: pointer;
+}
+
+.HomeNavBarButton1
+{
+    position: relative;
+    bottom: 20%;
+    right: 63%;
+    width: 135px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: black;
+    border-color: rgb(255, 160, 1);
+    cursor: pointer;
+
+}
+
+.HomeNavBarButton2
+{
+    position: relative;
+    bottom: 20%;
+    right: 63%;
+    width: 135px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: black;
+    border-color: rgb(255, 160, 1);
+    cursor: pointer;
+}
+
+.HomeNavBarButton3
+{
+    position: relative;
+    bottom: 20%;
+    right: 63%;
+    width: 135px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: black;
+    border-color: rgb(255, 160, 1);
+    cursor: pointer;
+} */
+
+.BodyProfileImg
+{
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+.BodyContentBio
+{
+    position: absolute;
+    color:white ;
+    top: 30%;
+    right: 25%;
+}
+.bold
+{
+  position: relative;
+  bottom: 15px;
+  left: 10px;
+}
+.Button5
+{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 450px;
+  margin-left: 250px;
+
+}
+.BodyAboutMeButton
+{
+  cursor: pointer;
+    border-color: rgb(255, 160, 1);
+    background-color: #242526;
+    color: white;
+    border-radius: 30px;
+    width: 175px;
+    height: 45px;
+    position: relative;
+    top: 50px;
+    
+}
+.BodyAboutMeButton:hover{
+    background-color:  rgb(255, 160, 1);
+    transition:  2s;
+    
+  }
+  /* .SideNavIcon3
+{
+    position: relative;
+    background-color: rgb(255, 160, 1);
+    width: 49px;
+    height: 49px;
+    left: 78%;
+    bottom: 105%;
+    border-radius: 48px;
+}
+.HomeNavBarButton3:hover{
+    background-color:  rgb(255, 160, 1);
+    transition:  1.5s;
+    
+  }
+
+
+  .SideNavIcon1
+  {
+    position: relative;
+    background-color: rgb(255, 160, 1);
+    width: 49px;
+    height: 49px;
+    left: 78%;
+    bottom: 105%;
+    border-radius: 48px;
+  } 
+  .HomeNavBarButton1:hover{
+    background-color:  rgb(255, 160, 1);
+    transition:  1.5s;
+  }
+  .SideNavIcon2
+  {
+
+      position: relative;
+      background-color: rgb(255, 160, 1);
+      width: 49px;
+      height: 49px;
+      left: 78%;
+      bottom: 105%;
+      border-radius: 48px;
+  }
+  .HomeNavBarButton2:hover{
+    background-color:  rgb(255, 160, 1);
+    transition:  1.5s;
+  } */
+  /* .BodyMamButton
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 520px;
+    padding-left: 270px;
+  
+  } */
+ 
+    .BodyImage
+    {
+      width:375px;
+      height:530px;
+      border-radius:10px
+    }
+    @media only screen and (min-width : 320px) and (max-width : 599px) {
+      img.BodyImage {
+        width: 380px;
+        height: 400px;
+        position: relative;
+        bottom: 150px;
+        right: 28px;
+        border-radius: 50px;
+      }
+    }
+    @media only screen and (min-width : 600px) and (max-width : 900px)
+    {
+      img.BodyImage {
+        width: 380px;
+        height: 400px;
+        position: relative;
+        bottom: 200px;
+        left: 90px;
+        border-radius: 50px;
+      }
+    }
+    @media only screen and (min-width : 900px) and (max-width : 1020px)
+    {
+      img.BodyImage {
+        width: 380px;
+        height: 400px;
+        position: relative;
+        bottom: 200px;
+        left: 100px;
+        border-radius: 50px;
+      }
+    }
+    @media only screen and (min-width : 320px) and (max-width : 599px) {
+      h1.NameContainer {
+        position: relative;
+      left: 80px;
+      top: 150px;
+  
+      }
+    }
+    @media only screen and (min-width : 600px) and (max-width : 900px)
+    {
+      h1.NameContainer {
+        position: relative;
+        left: 40px;
+        top: 70px;
+      }
+    }
+    @media only screen and (min-width : 900px) and (max-width : 1020px)
+    {
+      h1.NameContainer {
+        position: relative;
+        top: 70px;
+      }
+    }
+    @media only screen and (min-width : 1020px) and (max-width : 1358px)
+    {
+      h1.NameContainer {
+        position: relative;
+        left: 200px;
+      }
+    }
+    
+    
+      
+    
+    @media only screen and (min-width : 320px) and (max-width : 599px) 
+    {
+      h1.Designation
+      {
+        position: relative;
+        left: 82px;
+        top: 130px;
+      }
+    }
+    @media only screen and (min-width : 600px) and (max-width : 900px)
+    {
+      h1.Designation
+      {
+        position: relative;
+        left: 45px;
+        top: 50px;
+      }
+    }
+    @media only screen and (min-width : 900px) and (max-width : 1020px)
+    {
+      h1.Designation {
+        position: relative;
+        top: 60px;
+        right: 10px;
+      }
+    }
+    @media only screen and (min-width : 1020px) and (max-width : 1358px)
+    {
+      h1.Designation
+      {
+        position: relative;
+        left: 200px;
+      }
+    }
+
+
+
+    @media only screen and (min-width : 320px) and (max-width : 600px) 
+    {
+      p.Paragraph1
+      {
+        position: relative;
+        left: 90px;
+        top: 120px;
+      }
+    }
+    @media only screen and (min-width : 600px) and (max-width : 900px)
+    {
+      p.Paragraph1
+      {
+        position: relative;
+        left: 55px;
+        top: 50px;
+      }
+    }
+    @media only screen and (min-width : 900px) and (max-width : 1020px)
+    {
+      p.Paragraph1 {
+        position: relative;
+        top: 50px;
+      }
+    }
+
+
+    @media only screen and (min-width : 1020px) and (max-width : 1358px)
+    {
+      p.Paragraph1
+      {
+        position: relative;
+        left: 250px;
+
+      }
+    }
+    @media only screen and (min-width : 1358px) and (max-width : 1445px)
+    {
+      p.Paragraph1
+      {
+        position: relative;
+        left: 200px;
+      }
+    }
+
+
+    @media only screen and (min-width : 320px) and (max-width : 600px) 
+    {
+      button.BodyAboutMeButton
+      {
+        position: relative;
+        right: 145px;
+        top: 87px;
+        height: 50px;
+      }
+    }
+
+
+   
+    @media only screen and (min-width : 320px) and (max-width : 600px) 
+    {
+      .bold
+      {
+        position: relative;
+        right: 60px;
+        width:45px;
+        height:45px;
+        border-radius: 35px;
+        bottom: 15px;
+      }
+
+    }
+    @media only screen and (min-width : 1358px) and (max-width : 1445px)
+    {
+      .ArrowRight
+      {
+        position: relative;
+        bottom: px;
+        left: 8px;
+          width:41px;
+          height:41px;
+          border-radius: 35px;
+          background-color: rgb(255, 160, 1);
+      }
+    }
+    
+
+    @media only screen and (min-width : 320px) and (max-width : 600px) 
+    {
+      .Button5
+      {
+        position: relative;
+        border-radius: 35px;
+        top: 630px;
+        width: 200px;
+        right: 28px;
+      }
+
+    }
+    @media only screen and (min-width : 600px) and (max-width : 900px) 
+    {
+      .Button5
+      {
+        position: relative;
+        border-radius: 35px;
+        top: 580px;
+        width: 200px;
+        left: 50px;
+      }
+
+    }
+    @media only screen and (min-width : 900px) and (max-width : 1020px) 
+    {
+      .Button5
+      {
+        position: relative;
+        border-radius: 35px;
+        top: 630px;
+        width: 200px;
+        left: 80px;
+      }
+    }
+    @media only screen and (min-width : 1020px) and (max-width : 1300px) 
+    {
+      .Button5
+      {
+        position: relative;
+        border-radius: 35px;
+        width: 200px;
+        left: 45%;
+      }
+    }
+    @media only screen and (min-width : 320px) and (max-width : 600px) 
+    {
+      .fullbody
+      {
+        background-color: #18191A;
+        width: 440px;
+        height: 930px;
+      }
+    }
+    @media only screen and (min-width : 1020px) and (max-width : 1025px) 
+    {
+      .fullbody
+      {
+        background-color: #18191A;
+        width: 1100px;
+        height: 700px;
+      }
+
+    }
+    .ArrowRight
+    {
+      position: relative;
+      bottom: px;
+      left: 8px;
+        width:41px;
+        height:41px;
+        border-radius: 35px;
+        background-color: rgb(255, 160, 1);
+    }
+    .Container1Col
+    {
+      margin-left:150px;
+      margin-top: 150px;
+    }
+
+    @media only screen and (min-width : 320px) and (max-width : 600px) 
+    {
+      .imageBody
+    {
+      margin-left: 50px;
+    }
+    }
+
+
+    .continers
+    {
+
+    }
+    @media only screen and (min-width : 601px) and (max-width : 1000px) 
+    {
+      .imageBody
+      {
+        margin-left: 60px;
+  
+      }
+
+    }
+    @media only screen and (min-width : 300px) and (max-width : 600px) 
+    {
+      .continers
+      {
+         height: 920px
+      }
+    }
+    .imageBody
+      {
+        width: 350px;
+        height:500px
+      }
+    @media only screen and (min-width : 300px) and (max-width : 600px) 
+    {
+      .imageBody
+      {
+        position: relative;
+        right: 60px;
+        bottom:30px;
+         width: 240px;
+         height: 300px;
+      }
+    }
+    .Coloumn2
+    {
+     margin-left: 60px;
+     color: white;
+    }
+    @media only screen and (min-width : 300px) and (max-width : 600px) 
+    {
+      .Coloumn2
+      {
+        position: relative;
+        right: 65px;
+        bottom: 50px;
+         width: 250px;
+         height: 300px;
+      }
+    }
+    @media only screen and (min-width : 1000px) and (max-width : 2000px)
+    {
+      .continers {
+        margin-top: 100px;
+        border-radius: 50px;
+         
+      }
+    }
+    @media only screen and (min-width : 600px) and (max-width : 1000px)
+    {
+      .continers
+      {
+        display:grid ;
+        justify-content: center;
+        position: relative;
+      }
+    }
+    @media only screen and (min-width : 600px) and (max-width : 1000px) 
+{
+  .imageBody
+  {
+    position: relative;
+      bottom: 30px;
+      left: 30px;
+  }
+}
+@media only screen and (min-width : 600px) and (max-width : 1000px) 
+{
+  .Coloumn2
+  {
+    position: relative;
+      bottom: 60px;
+      left: 30px;
+  }
+}
